@@ -183,8 +183,6 @@ function displayAnswer () {
 		$("#questionArea").html("<p>Nope. Sorry, the correct answer is " + currentQuestion.correct + "</p>");
 	}
 
-	displayAnswer();
-
 	setTimeout(function() {
 		$("#questionArea").empty();
 		getQuestion();
@@ -210,6 +208,8 @@ $(document).on("click", ".answers", function(){
 		questionsWrong++;
 		right = "wrong";
 	}
+
+	displayAnswer();
 });
 
 function gameOver(){
