@@ -1,0 +1,38 @@
+body{
+
+}
+
+#mainContent {
+
+}
+
+#questionArea {
+
+}
+
+#pictureArea img{
+	width:50%;
+}
+
+.answers{
+	background-color: yellow;
+	padding:20px;
+}
+
+.answers:hover {
+	cursor:pointer;
+	background-color:blue;
+	color:white;
+}
+
+#startButton {
+	background-color: yellow;
+	padding: 20px;
+}
+
+#startButton:hover {
+	background-color: blue;
+	color:white;
+	cursor:pointer;
+}
+
