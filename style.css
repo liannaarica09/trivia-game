@@ -1,38 +1,46 @@
-body{
-
+body {
+	text-align: center;
 }
 
-#mainContent {
+#mainContent {}
 
+#questionArea {}
+
+#pictureArea img {
+	width: 50%;
+	border-radius: 20px;
 }
 
-#questionArea {
-
-}
-
-#pictureArea img{
-	width:50%;
-}
-
-.answers{
-	background-color: yellow;
-	padding:20px;
+.answers {
+	background-color: blue;
+	color: white;
+	padding: 20px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 20px;
 }
 
 .answers:hover {
-	cursor:pointer;
-	background-color:blue;
-	color:white;
+	cursor: pointer;
+	background-color: purple;
 }
 
 #startButton {
-	background-color: yellow;
+	background-color: blue;
+	color: white;
 	padding: 20px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 20px;
 }
 
 #startButton:hover {
-	background-color: blue;
-	color:white;
-	cursor:pointer;
+	background-color: purple;
+	cursor: pointer;
 }
-
